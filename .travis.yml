@@ -6,7 +6,7 @@ before_install:
 install:
 - composer update --prefer-lowest --no-interaction
 script:
-- vendor/bin/phpunit
+- vendor/bin/phpunit tests
 notifications:
   on_success: never
   on_failure: always
