@@ -1,0 +1,12 @@
+language: php
+php:
+- '7.1'
+before_install:
+- travis_retry composer self-update
+install:
+- composer update --prefer-lowest --no-interaction
+script:
+- vendor/bin/phpunit
+notifications:
+  on_success: never
+  on_failure: always
