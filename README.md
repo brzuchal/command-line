@@ -3,6 +3,9 @@ PHP CommandLine argument and option parser
 
 Purpose of this project is to provide modern and complete API for command line argument and option parsing in CLI.
 
+![PHP 7.1](https://img.shields.io/badge/PHP-7.1-8C9CB6.svg?style=flat)
+[![Build Status](https://travis-ci.org/brzuchal/command-line.svg?branch=master)](https://travis-ci.org/plumbok/plumbok)
+
 ## CommandLine generics
 
 When you type `ENV=prod php -d "error_reporting=E_ALL" script.php test --debug` only last command line components are visible
